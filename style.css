@@ -1,0 +1,56 @@
+<style>
+#kg-gallery-zoom {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    left:0px;
+    overflow: hidden;
+    padding:30px;
+    position: fixed;
+    top:0px;
+    width: 100%;
+}
+#kg-gallery-zoom img {
+    cursor: -moz-zoom-out;
+    cursor: -webkit-zoom-out;
+    cursor: zoom-out;
+    height: auto;
+    height:auto;
+    left: 50%;
+    max-height:80%;
+    max-width:80%;
+    position: absolute;
+    top: 0;
+    top: 5%;
+    transform: translateX(-50%);
+    width:auto;
+}
+.kg-gallery-image img {
+    cursor: -moz-zoom-in;
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
+}
+.kg-gallery-btn{
+    background-color: #000;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: 0.25em;
+    text-align: center;
+    width: 30px;
+}
+.kg-gallery-btn:active,
+.kg-gallery-btn:focus {
+    background-color:#ccff00;
+}
+#kg-gallery-buttons {
+    bottom:30px;
+    margin-left:auto;
+    margin-right:auto;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index:99999;
+}
+</style> 
